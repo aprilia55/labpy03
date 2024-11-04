@@ -54,8 +54,9 @@ print("SELESAI")
 ```
 akan menampilkan `SELESAI!`
 ```
+![foto]
 
-## alur kode 2
+## alur kode latihan 2
 
 ```python
 modal_awal = 100_000_000
@@ -104,5 +105,73 @@ Total modal setelah laba bulan tersebut ditambahkan, diformat dalam format rupia
 print(f"\nTotal modal pada akhir bulan ke-8: Rp{modal:,.0f}")
 ```
 Setelah loop selesai, kode ini menampilkan total modal setelah bulan ke-8, diformat dengan pemisah ribuan untuk tampilan yang lebih mudah dibaca.
+
+![foto]
+
+## alur kode latihan3
+
+```python
+saldo = 1000000
+```
+Kode ini menginisialisasi variabel saldo dengan nilai 1.000.000. 
+
+```python
+while True:
+```
+Kode ini membuat infinite loop yang akan terus berjalan sampai ada perintah untuk menghentikannya.
+
+```python
+print(f"\nSaldo saat ini: Rp{saldo}")
+print("1. Tarik Tunai")
+print("2. Keluar")
+```
+ kode ini menampilkan saldo saat ini dan daftar menu pilihan:
+
+- 1 untuk "Tarik Tunai".
+- 2 untuk "Keluar".
+
+```python
+pilihan = int(input("Pilih menu (1/2): "))
+```
+kode ini meminta pengguna memasukkan pilihan menu dalam bentuk angka (`1` atau `2`). Angka tersebut disimpan dalam variabel `pilihan`.
+
+## - pilihan menu
+
+```python
+if pilihan == 1:
+```
+jika pengguna memilih 1, maka akan ada langkah-langkah untuk melakukan penarikan tunai:
+  - ```python
+    jumlah = int(input("Masukkan jumlah penarikan: Rp"))
+    ```
+    diminta memasukkan jumlah uang yang ingin ditarik, yang  disimpan dalam variabel `jumlah`.
+   - ```python
+     if jumlah <= saldo:
+     ```
+     Kode ini memeriksa apakah jumlah yang diminta untuk ditarik (`jumlah`) kurang dari atau sama dengan saldo saat ini.
+      
+   - ```python
+      saldo -= jumlah
+     print(f"Penarikan berhasil. Sisa saldo Anda: Rp{saldo}")
+     ```
+     Saldo dikurangi sebesar jumlah, dan saldo baru ditampilkan kepada pengguna.
+  - ```python
+    else:
+    print("Saldo Anda tidak mencukupi!")
+      ```
+    Jika saldo tidak mencukupi, maka pesan `"Saldo Anda tidak mencukupi!"` akan ditampilkan.
+  - ```python
+    elif pilihan == 2:
+    print("Terima kasih telah menggunakan layanan ATM!")
+    break
+    ```
+    Jika pengguna memilih `2`, maka kode akan mencetak pesan "Terima kasih telah menggunakan layanan ATM!" dan menghentikan loop dengan perintah `break`, sehingga program selesai
+    - ```python
+      else:
+      print("Pilihan tidak valid, silakan coba lagi.")
+      ```
+      Jika pengguna memasukkan pilihan selain `1` atau `2`, pesan "Pilihan tidak valid, silakan coba lagi." akan ditampilkan dan loop akan berulang.
+
+      ![foto]
 
 
