@@ -106,7 +106,7 @@ print(f"\nTotal modal pada akhir bulan ke-8: Rp{modal:,.0f}")
 ```
 Setelah loop selesai, kode ini menampilkan total modal setelah bulan ke-8, diformat dengan pemisah ribuan untuk tampilan yang lebih mudah dibaca.
 
-![foto]
+![foto](https://github.com/aprilia55/labpy03/blob/e8c8d3657882695d3911aa4434b7b69afdde5993/Screen%20Shot%202024-11-04%20at%2011.38.51.png)
 
 ## alur kode latihan3
 
