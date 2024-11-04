@@ -54,7 +54,7 @@ print("SELESAI")
 ```
 akan menampilkan `SELESAI!`
 ```
-![foto]
+![foto](https://github.com/aprilia55/photo/blob/f491f139ddf141e9877f3e2b9f544fde4d17fccd/Screen%20Shot%202024-11-04%20at%2011.24.53.png)
 
 ## alur kode latihan 2
 
