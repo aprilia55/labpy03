@@ -1,8 +1,8 @@
 # Praktikum 3 - perulangan
 
-Nama : Alafarizki Aprilia Putri
+Nama : Alfarizki Aprilia Putri
 
-Kelas : TI.24.A.5
+Kelas : TI.24.A5
 
 NIM : 312410455
 
